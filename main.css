@@ -10,49 +10,68 @@
 
 }
 
-/*.container { 
-    display: flex;
-    justify-content: center;   
-    background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);
-    background-clip: content-box;
-}
-*/
 #imagem {
     display: flex;
+    flex-direction: row;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);
     background-position: center;
     justify-content: center;
 
+
 }
 
 h2{
-    height: 30px;
+  
+    gap: 5em;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #palavra{ 
-    display: flex;
-    width: 200px;
-    height: 200px;
-    text-align: center; 
+    background-color: transparent;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
     color:rgb(255, 255, 255); }
 
     
-.noticias{
+
+.imagem_noticias {
     display: flex;
-    padding: auto;
-
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
 }
 
-#camisa {
-    height: 50px;
-    width: 100px;
-
+#tite {
+    width:40em;
+    height: 300px;
 }
 
-    }
-    /*https://picfiles.alphacoders.com/327/327438.jpg**/
+#camisa2 {
+    width: 40em;
+    height: 300px;
+}
+
+.frases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#not_tite{
+
+}
+/*https://picfiles.alphacoders.com/327/327438.jpg**/
 /*background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png); */
+
+/*<div id="noticia"> <img src="https://flamengorj.com.br/wp-content/uploads/cwv-webp-images/2024/04/tite-comenta-queda-de-rendimento-do-flamengo-no-segundo-tempo-de-jogo.jpg.webp" alt="noticia"> </div>
+<div id="camisa"> <img src="https://s2-ge.glbimg.com/1XntspO0ckSqjfmfS3MXLlR8dBo=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/V/X/sXVfu5SzW8gqdvixNSXA/whatsapp-image-2024-04-04-at-9.54.40-am.jpeg" alt"camisa"></div> *
+
+        <div id="noticia"> <img src="https://flamengorj.com.br/wp-content/uploads/cwv-webp-images/2024/04/tite-comenta-queda-de-rendimento-do-flamengo-no-segundo-tempo-de-jogo.jpg.webp" alt="noticia"></div>
+        <div id="camisa"> <img src="https://s2-ge.glbimg.com/1XntspO0ckSqjfmfS3MXLlR8dBo=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/V/X/sXVfu5SzW8gqdvixNSXA/whatsapp-image-2024-04-04-at-9.54.40-am.jpeg"  alt="cami9"></div>
