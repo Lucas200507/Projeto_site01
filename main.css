@@ -1,24 +1,45 @@
+.direção {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .imagem{
-    height: 2em;
-    width: 2em;
-    margin-left: 40em;
+    height: 10em;
+    width: 10em;
+    
 
 }
 
-div{
-    width: 1280px;
-    height: 720px;
-    padding: 10px;
-    margin: auto;
+/*.container { 
+    display: flex;
+    justify-content: center;   
     background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);
+    background-clip: content-box;
+}
+*/
+#imagem {
+    display: flex;
     background-repeat: no-repeat;
-    background-repeat: content-box;
+    background-size: 100%;
+    background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);
+    background-position: center;
+    justify-content: center;
 
 }
- p{text-align: center;
-    font-family: fantasy;
-    font-size: 3em;
-    color: white;
-    padding: 3em;
+
+
+
+#palavra{ 
+    display: flex;
+    width: 200px;
+    height: 200px;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    color:rgb(255, 255, 255);
+    
+
 
     }
+    /*https://picfiles.alphacoders.com/327/327438.jpg**/
+/*background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png); */
