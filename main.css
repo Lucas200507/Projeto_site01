@@ -27,7 +27,9 @@
 
 }
 
-
+h2{
+    height: 30px;
+}
 
 #palavra{ 
     display: flex;
@@ -36,9 +38,20 @@
     text-align: center; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
-    color:rgb(255, 255, 255);
-    
+    color:rgb(255, 255, 255); }
 
+    
+.noticias{
+    display: flex;
+    padding: auto;
+
+}
+
+#camisa {
+    height: 50px;
+    width: 100px;
+
+}
 
     }
     /*https://picfiles.alphacoders.com/327/327438.jpg**/
