@@ -4,10 +4,15 @@
 }
 
 .imagem{
-    height: 10em;
-    width: 10em;
+    height: 100px;
+    width: 100px;
+    transition: width 1s, height 1s;
     
 
+}
+.imagem:hover {
+    height: 120px;
+    width: 120px;
 }
 
 #imagem {
@@ -15,9 +20,12 @@
     flex-direction: row;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);
+    /*background-image: url(https://i.pinimg.com/originals/f2/12/c5/f212c509eac3a53152d33a5fb9df6d64.png);*/
+    background-image: url(https://lncimg.lance.com.br/cdn-cgi/image/width=auto,height=auto,,quality=75,format=webp/uploads/2022/10/19/6350ab75dd59a.jpeg);
     background-position: center;
     justify-content: center;
+    height: 300px;
+    align-items: center;
 
 
 }
@@ -32,9 +40,10 @@ h2{
 
 #palavra{ 
     background-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5em;
+    font-family: "Jolly Lodger", system-ui;
+    font-size: 7em;
     color:rgb(255, 255, 255); }
+                               
 
     
 
@@ -45,13 +54,25 @@ h2{
 }*/
 
 #tite {
-    width:40em;
+    width:650px;
     height: 300px;
+    transition: width 1s, height 1s;
+}
+#tite:hover {
+    height: 320px;
+    width: 700px;
+
 }
 
 #camisa2 {
-    width: 40em;
+    width: 650px;
     height: 300px;
+    transition: width 1s, height 1s;
+}
+#camisa2:hover {
+    height: 320px;
+    width: 700px;
+
 }
 
 /*.frases {
